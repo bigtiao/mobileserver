@@ -13,7 +13,7 @@
 <META content=name=description>
 <STYLE type=text/css>
 .neon {
-	FILTER: glow(color =     #002E60, strength =     3)
+	FILTER: glow(color =       #002E60, strength =       3)
 }
 
 DIV {
@@ -75,8 +75,8 @@ BODY {
 	<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
 		<TBODY>
 			<TR>
-				<TD borderColor=#0 width="100%" background="<%=path%>/images/logo_top.png"
-					height=76>
+				<TD borderColor=#0 width="100%"
+					background="<%=path%>/images/logo_top.png" height=76>
 					<TABLE height=108 cellSpacing=0 cellPadding=0 width="100%" border=0>
 						<TBODY>
 							<TR>
@@ -88,15 +88,16 @@ BODY {
 								<TD vAlign=top align=right>&nbsp;</TD>
 							</TR>
 							<TR>
-								<TD vAlign=bottom align=middle colSpan=2>
-									<TABLE height=38 cellSpacing=0 cellPadding=0 width=766 border=0>
+								<TD vAlign=bottom align=right colSpan=2>
+									<TABLE height=38 cellSpacing=0 cellPadding=0 width=566 border=0>
 										<TBODY>
 											<TR>
 												<TD width=84>&nbsp;</TD>
 												<TD vAlign=center align=middle width=97>&nbsp;</TD>
 												<TD vAlign=center align=middle width=97>&nbsp;</TD>
 												<TD class=our vAlign=center align=middle width=97>&nbsp;</TD>
-												<TD vAlign=center align=middle width=97
+												<%--
+												 <TD vAlign=center align=middle width=97
 													background="<%=path%>/images/dh.gif"><A
 													href="<%=path%>/pass.jsp" target="main" class=dh>密码修改</A>
 												</TD>
@@ -104,24 +105,21 @@ BODY {
 													background="<%=path%>/images/dh.gif"><span
 													class="white">用户：</span><span class="font1"><%=username%></span>
 												</TD>
+												--%>
 												<TD vAlign=center align=middle width=97
-													background="<%=path%>/images/dh.gif"><A
+													background="<%=path%>/images/top-1.png"><A
 													href="<%=path%>/postdata.jsp" target="main" class=dh>首
-														页</A>
-												</TD>
+														页</A></TD>
 												<TD vAlign=center align=middle width=100
-													background="<%=path%>/images/dh-2.gif"><A
+													background="<%=path%>/images/top-1.png"><A
 													href="<%=path%>/login.jsp" target="_parent" class=dh>退
-														出</A>
-												</TD>
+														出</A></TD>
 											</TR>
 										</TBODY>
-									</TABLE>
-								</TD>
+									</TABLE></TD>
 							</TR>
 						</TBODY>
-					</TABLE>
-				</TD>
+					</TABLE></TD>
 			</TR>
 		</TBODY>
 	</TABLE>

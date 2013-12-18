@@ -80,13 +80,13 @@ BODY {
 				<TD width=177 height="682" vAlign=top
 					background="<%=path%>/images/glmbxm.png"><img
 					src="<%=path%>/images/glmb.png" width="177" height="19">
-					<TABLE height=26 cellSpacing=1 cellPadding=0 width=177
-						background="<%=path%>/images/abj.gif" border=0>
+					<TABLE cellSpacing=1 cellPadding=2 width=177  height=26
+						background="<%=path%>/images/abj.png" border=0>
 						<TBODY>
 							<TR>
 								<TD class=unnamed1-dh
-									onmouseover="this.style.backgroundColor='#005FC5'"
-									onmouseout="this.style.backgroundColor='#04366C'" vAlign=top>
+									onmouseover="this.style.backgroundColor='#33cc3a'"
+									onmouseout="this.style.backgroundColor='#046c13'" vAlign=top>
 									<TABLE height=2 cellSpacing=0 cellPadding=0 width="100%"
 										border=0>
 										<TBODY>
@@ -103,15 +103,16 @@ BODY {
 
 
 					<TABLE height=26 cellSpacing=1 cellPadding=0 width=177
-						background="<%=path%>/images/abj2.gif" border=0>
+						background="<%=path%>/images/abj-2.png" border=0>
 						<TBODY>
 							<TR>
 								<TD class=unnamed1-dh
-									onmouseover="this.style.backgroundColor='#6AA1DB'"
-									onmouseout="this.style.backgroundColor='#2A67A9'" vAlign=top
-									bgColor=#2a67a9><A
+									onmouseover="this.style.backgroundColor='#5fc864'"
+									onmouseout="this.style.backgroundColor='#8ace8d'" vAlign=top
+									bgColor=#8ace8d
+									><A
 									href="<%=path%>/servlet/ProductAction?action_flag=list&pageNum=1"
-									target="main" class=yd>产品信息</A>
+									target="main" class=yd style=" color:#ffffff" >产品信息</A>
 								</TD>
 							</TR>
 						</TBODY>
