@@ -14,6 +14,16 @@
   	<url-pattern>/servlet/LoginAction</url-pattern>
   </servlet-mapping>
   
+  <servlet>
+  	<servlet-name>UserAction</servlet-name>
+  	<servlet-class>com.scents.mobile.user.UserAction</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>UserAction</servlet-name>
+  	<url-pattern>/servlet/UserAction</url-pattern>
+  </servlet-mapping>
+  
   
   <welcome-file-list>
     <welcome-file>login.jsp</welcome-file>

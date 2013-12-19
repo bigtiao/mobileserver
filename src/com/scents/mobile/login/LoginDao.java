@@ -3,7 +3,7 @@ package com.scents.mobile.login;
 import java.util.List;
 import java.util.Map;
 
-import com.scents.mobile.jdbc.JdbcUtils;
+import com.scents.mobile.tools.JdbcUtils;
 
 public class LoginDao implements LoginService {
 	JdbcUtils jdbcUtils = null;

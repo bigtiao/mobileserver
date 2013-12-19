@@ -87,16 +87,16 @@ BODY {
 									align=center border=0>
 									<TBODY>
 										<TR>
-											<TD colSpan=3 height=9></TD>
+											 <TD colSpan=3 height=9></TD>
 										</TR>
 										<TR>
 											<TD vAlign=top width=8
 												background="<%=path%>/images/dhpddw.gif" rowSpan=2>
 												<!--DWLayoutEmptyCell-->&nbsp;</TD>
-											<TD width=743 background="<%=path%>/images/h-1.gif" height=9></TD>
+										<%-- 	<TD width=743 background="<%=path%>/images/h-1.gif" height=9></TD>
 											<TD width=9 height=9><IMG height=9
 												src="<%=path%>/images/jiao.gif" width=9>
-											</TD>
+											</TD>--%>
 										</TR>
 										<TR>
 											<TD vAlign=top align=right width=743 height=408><TABLE
@@ -123,8 +123,8 @@ BODY {
 														</TR>
 														<TR>
 															<TD height=252 vAlign=top><P>
-																	<img src="<%=path%>/images/pioneer_4.jpg" width="551"
-																		height="147">
+																	<img src="<%=path%>/images/login4.png" width="822"
+																		height="456">
 																</P>
 															</TD>
 															<TD></TD>
@@ -144,7 +144,7 @@ BODY {
 						</TR>
 					</TBODY>
 				</TABLE> <IFRAME name=top align=default src="<%=path%>/bottom.jsp"
-					frameBorder=0 width=100% scrolling=no height=88>
+					frameBorder=0 width=100% scrolling=no height=68>
 					<h1>&nbsp;</h1>
 				</IFRAME> &nbsp;</td>
 		</table></td>

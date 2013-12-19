@@ -95,7 +95,7 @@ BODY {
 											</TR>
 										</TBODY>
 									</TABLE> <IMG height=9 src="<%=path%>/images/dhjt.gif" width=15>
-									<A class=baise href="#">产品管理模块</A><A class=baise href="#"></A>
+									<A class=baise href="#">手机管理模块</A><A class=baise href="#"></A>
 								</TD>
 							</TR>
 						</TBODY>
@@ -112,7 +112,7 @@ BODY {
 									bgColor=#8ace8d
 									><A
 									href="<%=path%>/servlet/ProductAction?action_flag=list&pageNum=1"
-									target="main" class=yd style=" color:#ffffff" >产品信息</A>
+									target="main" class=yd style=" color:#ffffff" >人员信息</A>
 								</TD>
 							</TR>
 						</TBODY>

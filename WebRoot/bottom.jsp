@@ -5,7 +5,7 @@ String path = request.getContextPath();
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <HTML><HEAD><TITLE>后台管理系统</TITLE>
-<META http-equiv=Content-Type content="text/html; charset=gb2312">
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
 <META 
 content="" 
 name=keywords>
@@ -30,10 +30,10 @@ BODY {
 </style>
 </HEAD>
 <BODY bgColor=#ffffff>
-<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0 >
   <TBODY>
   <TR>
-    <TD class=white vAlign=center align=middle background="<%=path %>/images/d_6.jpg "
+    <TD class=white valign="bottom"  align=middle background="<%=path %>/images/d_6.png "
     height=61>版权所有 &copy; 
       2000-2006 <br>
       建议使用IE5.0、/(Netscape6.0)以上版本浏览器和中文大字符集<br>
