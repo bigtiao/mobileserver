@@ -4,7 +4,7 @@
 	String path = request.getContextPath();
 	String name = (String)request.getAttribute("name");
 	name = (name==null?"":name);
-	List<Map<String, Object>> list = (List<Map<String, Object>>)request.getAttribute("listuserinfo");
+	List<Map<String, Object>> list = (List<Map<String, Object>>)request.getAttribute("listuser");
 	DividePage pUtil = (DividePage)request.getAttribute("pUtil");
 %>
 
@@ -12,7 +12,7 @@
 <HTML>
 	<HEAD>
 		<TITLE>后台管理系统</TITLE>
-		<META http-equiv=Content-Type content="text/html; charset=gb2312">
+		<META http-equiv=Content-Type content="text/html; charset=utf-8">
 		<META content="" name=keywords>
 		<META content=name=description>
 		<STYLE type=text/css>
@@ -54,32 +54,32 @@ BODY {
 <script type="text/javascript">
  function search(){
    var th = document.form1;
-   th.action="<%=path%>/servlet/ProductAction?action_flag=list";
+   th.action="<%=path%>/servlet/UserAction?action_flag=list";
    th.submit();
  }
  function first(){
    var th = document.form1;
-   th.action="<%=path%>/servlet/ProductAction?action_flag=list&pageNum=1";
+   th.action="<%=path%>/servlet/UserAction?action_flag=list&pageNum=1";
    th.submit();
  }
  function forward2(){
    var th = document.form1;
-   th.action="<%=path%>/servlet/ProductAction?action_flag=list&pageNum=<%=pUtil.getCurrentPage()-1%>";
+   th.action="<%=path%>/servlet/UserAction?action_flag=list&pageNum=<%=pUtil.getCurrentPage()-1%>";
    th.submit();
  }
   function next(){
    var th = document.form1;
-   th.action="<%=path%>/servlet/ProductAction?action_flag=list&pageNum=<%=pUtil.getCurrentPage()+1%>";
+   th.action="<%=path%>/servlet/UserAction?action_flag=list&pageNum=<%=pUtil.getCurrentPage()+1%>";
    th.submit();
  }
  function end(){
    var th = document.form1;
-   th.action="<%=path%>/servlet/ProductAction?action_flag=list&pageNum=<%=pUtil.getPageCount()%>";
+   th.action="<%=path%>/servlet/UserAction?action_flag=list&pageNum=<%=pUtil.getPageCount()%>";
    th.submit();
  }
  function changePage(currentPage){
   var th = document.form1;
-   th.action="<%=path%>/servlet/ProductAction?action_flag=list&pageNum="+currentPage;
+   th.action="<%=path%>/servlet/UserAction?action_flag=list&pageNum="+currentPage;
    th.submit();
  }
  
@@ -116,7 +116,7 @@ BODY {
      alert("至少要选中一个选项!!");
      return ;
    }
-   th.action="<%=path%>/servlet/ProductAction?action_flag=del";
+   th.action="<%=path%>/servlet/UserAction?action_flag=del";
    th.submit();
  }
  function view(){
@@ -129,7 +129,7 @@ BODY {
     alert("仅仅只能选中一个选项!!");
      return ;
    }
-   th.action="<%=path%>/servlet/ProductAction?action_flag=view&proid="+getSelectValue();
+   th.action="<%=path%>/servlet/UserAction?action_flag=view&id="+getSelectValue();
    th.submit();
  }
 </script>
@@ -239,7 +239,7 @@ BODY {
 														<TD align="center" valign="middle" noWrap>
 															<span class="foot3"><%=map.get("name") %></span>
 														</TD>
-														<TD align="center" valign="middle" noWrap class="foot3"><%=map.get("proprice") %></TD>
+														<TD align="center" valign="middle" noWrap class="foot3"><%=map.get("company") %></TD>
 														<TD align="center" valign="middle">
 															<span class="foot3"><%=map.get("department") %></span>
 														</TD>

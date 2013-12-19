@@ -22,17 +22,20 @@ import com.scents.mobile.tools.DividePage;
 import com.scents.mobile.tools.UUIDTools;
 
 public class UserAction extends HttpServlet {
+	
+	
 
+	private UserService service;
+	
+	public UserAction() {
+		super();
+	}
+	
 	@Override
 	public void destroy() {
 		super.destroy();
 	}
-
-	private UserService service;
-
-	public UserAction() {
-		super();
-	}
+	
 
 	@Override
 	protected void doGet(HttpServletRequest request,
@@ -125,6 +128,9 @@ public class UserAction extends HttpServlet {
 			// 取出所有表单的值:判断非文本字段和文本字段
 			for (FileItem fileItem : list) {
 				if (fileItem.isFormField()) {
+					if (fileItem.getFieldName().equals("id")) {
+						params.add(fileItem.getString("utf-8"));
+					}
 					if (fileItem.getFieldName().equals("name")) {
 						params.add(fileItem.getString("utf-8"));
 					}
@@ -163,6 +169,10 @@ public class UserAction extends HttpServlet {
 			e.printStackTrace();
 		}
 
+	}
+	public void init() throws ServletException {
+		// TODO Auto-generated method stub
+		service = new UserDao();
 	}
 
 }

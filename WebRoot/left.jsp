@@ -7,7 +7,7 @@
 <HTML>
 <HEAD>
 <TITLE>后台管理系统</TITLE>
-<META http-equiv=Content-Type content="text/html; charset=gb2312">
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
 <META content="" name=keywords>
 <META content=name=description>
 <STYLE type=text/css>
@@ -111,7 +111,7 @@ BODY {
 									onmouseout="this.style.backgroundColor='#8ace8d'" vAlign=top
 									bgColor=#8ace8d
 									><A
-									href="<%=path%>/servlet/ProductAction?action_flag=list&pageNum=1"
+									href="<%=path%>/servlet/UserAction?action_flag=list&pageNum=1"
 									target="main" class=yd style=" color:#ffffff" >人员信息</A>
 								</TD>
 							</TR>
