@@ -62,7 +62,7 @@ public class UserAction extends HttpServlet {
 		String id = request.getParameter("id");
 		Map<String, Object> map = service.viewUser(id);
 		request.setAttribute("map", map);
-		request.getRequestDispatcher("/product/2_1_5xs.jsp").forward(request,
+		request.getRequestDispatcher("/mobile/2_1_5xs.jsp").forward(request,
 				response);
 
 	}
@@ -96,7 +96,7 @@ public class UserAction extends HttpServlet {
 		request.setAttribute("pUtil", pUtil);
 		request.setAttribute("listuser", list);
 		request.setAttribute("name", name);
-		request.getRequestDispatcher("/product/2_1_5.jsp").forward(request,
+		request.getRequestDispatcher("/mobile/2_1_5.jsp").forward(request,
 				response);
 
 	}
