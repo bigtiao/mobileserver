@@ -102,10 +102,27 @@ BODY {
 													</span>
 													</TD>
 													<TD width=18% align="center" noWrap class="STYLE7">公司</TD>
-													<TD width=38% noWrap><span class="STYLE7"> <INPUT
+													<TD width=38% noWrap><span class="STYLE7"> <%-- <INPUT
 															class=text2 maxLength=200 size=18 name="company"
-															minLength="1">
+															minLength="1">--%>
 													</span>
+													<select class=text2 length=200  name="company">
+														<option>控股公司</option>
+														<option>粮油公司</option>
+														<option>小包装公司</option>
+														<option>龙口公司</option>
+														<option>蛋白公司</option>
+														<option>健源公司</option>
+														<option>热动公司</option>
+														<option>物流公司</option>
+														<option>物流项目公司</option>
+														<option>饲料公司</option>
+														<option>置业公司</option>
+														<option>典当公司</option>
+														<option>北京公司</option>
+														<option>中华人民共和国公司</option>
+													</select>
+													
 													</TD>
 												</TR>
 

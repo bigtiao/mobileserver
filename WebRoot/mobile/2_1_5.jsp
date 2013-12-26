@@ -186,9 +186,9 @@ BODY {
 										href="javascript:search();"> <img
 											src="<%=path%>/images/cx_1.jpg" name="Image4" width="60"
 											height="22" border="0"> </a>&nbsp; <a
-										href="<%=path%>/mobile/2_1_5tj.jsp"><img
+										href="<%=path%>/mobile/2_1_5tj.jsp"><%-- <img
 											src="<%=path%>/images/tj_1.jpg" name="Image3" width="60"
-											height="22" border="0"> </a></TD>
+											height="22" border="0"> </a>--%></TD>
 								</TR>
 								<TR>
 									<TD height=94 vAlign=top><IMG height=10
@@ -243,7 +243,7 @@ BODY {
 													<td height="20" align="center" valign="middle" nowrap>
 														<span class="STYLE7">共<%=pUtil.getPageCount()%>页</span>&nbsp;
 														<a href="javascript:first();" class="dh2">首页</a>&nbsp; <a
-														href="javascript:forwrad2();" class="dh2">上一页</a>&nbsp; <a
+														href="javascript:forward2();" class="dh2">上一页</a>&nbsp; <a
 														href="javascript:next();" class="dh2">下一页</a>&nbsp; <a
 														href="javascript:end();" class="dh2">尾页</a>&nbsp; <span
 														class="STYLE7">跳转到</span> <select name="select"

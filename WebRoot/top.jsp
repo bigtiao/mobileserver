@@ -13,7 +13,7 @@
 <META content=name=description>
 <STYLE type=text/css>
 .neon {
-	FILTER: glow(color =       #002E60, strength =       3)
+	FILTER: glow(color =             #002E60, strength =             3)
 }
 
 DIV {
@@ -106,20 +106,28 @@ BODY {
 													class="white">用户：</span><span class="font1"><%=username%></span>
 												</TD>
 												--%>
-												<TD vAlign=center align=middle width=97
+												<TD vAlign=center align=middle width=120
 													background="<%=path%>/images/top-1.png"><A
 													href="<%=path%>/postdata.jsp" target="main" class=dh>首
-														页</A></TD>
-												<TD vAlign=center align=middle width=100
+														页</A>
+												</TD>
+												<TD vAlign=center align=middle width=120
+													background="<%=path%>/images/top-1.png"><A
+													href="<%=path%>/mobile/2_1_5tj.jsp" target="main" class=dh>添 加</A>
+												</TD>
+												<TD vAlign=center align=middle width=120
 													background="<%=path%>/images/top-1.png"><A
 													href="<%=path%>/login.jsp" target="_parent" class=dh>退
-														出</A></TD>
+														出</A>
+												</TD>
 											</TR>
 										</TBODY>
-									</TABLE></TD>
+									</TABLE>
+								</TD>
 							</TR>
 						</TBODY>
-					</TABLE></TD>
+					</TABLE>
+				</TD>
 			</TR>
 		</TBODY>
 	</TABLE>
