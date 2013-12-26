@@ -95,7 +95,7 @@ BODY {
 											</TR>
 										</TBODY>
 									</TABLE> <IMG height=9 src="<%=path%>/images/dhjt.gif" width=15>
-									<A class=baise href="#">手机管理模块</A><A class=baise href="#"></A>
+									<A class=baise href="#">香驰控股</A><A class=baise href="#"></A>
 								</TD>
 							</TR>
 						</TBODY>
@@ -108,11 +108,131 @@ BODY {
 							<TR>
 								<TD class=unnamed1-dh
 									onmouseover="this.style.backgroundColor='#5fc864'"
-									onmouseout="this.style.backgroundColor='#8ace8d'" vAlign=top
+									onmouseout="this.style.backgroundColor='#8ace8d'" vAlign=top height=30
 									bgColor=#8ace8d
 									><A
 									href="<%=path%>/servlet/UserAction?action_flag=list&pageNum=1"
-									target="main" class=yd style=" color:#ffffff" >人员信息</A>
+									target="main" class=yd style=" color:#ffffff" >控股公司</A>
+								</TD>
+							</TR>
+							<TR>
+								<TD class=unnamed1-dh
+									onmouseover="this.style.backgroundColor='#5fc864'"
+									onmouseout="this.style.backgroundColor='#8ace8d'" vAlign=top height=30
+									bgColor=#8ace8d
+									><A
+									href="<%=path%>/servlet/UserAction?action_flag=list&pageNum=1"
+									target="main" class=yd style=" color:#ffffff" >粮油公司</A>
+								</TD>
+							</TR>
+							<TR>
+								<TD class=unnamed1-dh
+									onmouseover="this.style.backgroundColor='#5fc864'"
+									onmouseout="this.style.backgroundColor='#8ace8d'" vAlign=top height=30
+									bgColor=#8ace8d
+									><A
+									href="<%=path%>/servlet/UserAction?action_flag=list&pageNum=1"
+									target="main" class=yd style=" color:#ffffff" >小包装公司</A>
+								</TD>
+							</TR>
+							<TR>
+								<TD class=unnamed1-dh
+									onmouseover="this.style.backgroundColor='#5fc864'"
+									onmouseout="this.style.backgroundColor='#8ace8d'" vAlign=top height=30
+									bgColor=#8ace8d
+									><A
+									href="<%=path%>/servlet/UserAction?action_flag=list&pageNum=1"
+									target="main" class=yd style=" color:#ffffff" >龙口公司</A>
+								</TD>
+							</TR>
+							<TR>
+								<TD class=unnamed1-dh
+									onmouseover="this.style.backgroundColor='#5fc864'"
+									onmouseout="this.style.backgroundColor='#8ace8d'" vAlign=top height=30
+									bgColor=#8ace8d
+									><A
+									href="<%=path%>/servlet/UserAction?action_flag=list&pageNum=1"
+									target="main" class=yd style=" color:#ffffff" >蛋白公司</A>
+								</TD>
+							</TR>
+							<TR>
+								<TD class=unnamed1-dh
+									onmouseover="this.style.backgroundColor='#5fc864'"
+									onmouseout="this.style.backgroundColor='#8ace8d'" vAlign=top height=30
+									bgColor=#8ace8d
+									><A
+									href="<%=path%>/servlet/UserAction?action_flag=list&pageNum=1"
+									target="main" class=yd style=" color:#ffffff" >健源公司</A>
+								</TD>
+							</TR>
+							<TR>
+								<TD class=unnamed1-dh
+									onmouseover="this.style.backgroundColor='#5fc864'"
+									onmouseout="this.style.backgroundColor='#8ace8d'" vAlign=top height=30
+									bgColor=#8ace8d
+									><A
+									href="<%=path%>/servlet/UserAction?action_flag=list&pageNum=1"
+									target="main" class=yd style=" color:#ffffff" >热动公司</A>
+								</TD>
+							</TR>
+							<TR>
+								<TD class=unnamed1-dh
+									onmouseover="this.style.backgroundColor='#5fc864'"
+									onmouseout="this.style.backgroundColor='#8ace8d'" vAlign=top height=30
+									bgColor=#8ace8d
+									><A
+									href="<%=path%>/servlet/UserAction?action_flag=list&pageNum=1"
+									target="main" class=yd style=" color:#ffffff" >物流公司</A>
+								</TD>
+							</TR>
+							<TR>
+								<TD class=unnamed1-dh
+									onmouseover="this.style.backgroundColor='#5fc864'"
+									onmouseout="this.style.backgroundColor='#8ace8d'" vAlign=top height=30
+									bgColor=#8ace8d
+									><A
+									href="<%=path%>/servlet/UserAction?action_flag=list&pageNum=1"
+									target="main" class=yd style=" color:#ffffff" >物流项目公司</A>
+								</TD>
+							</TR>
+							<TR>
+								<TD class=unnamed1-dh
+									onmouseover="this.style.backgroundColor='#5fc864'"
+									onmouseout="this.style.backgroundColor='#8ace8d'" vAlign=top height=30
+									bgColor=#8ace8d
+									><A
+									href="<%=path%>/servlet/UserAction?action_flag=list&pageNum=1"
+									target="main" class=yd style=" color:#ffffff" >饲料公司</A>
+								</TD>
+							</TR>
+							<TR>
+								<TD class=unnamed1-dh
+									onmouseover="this.style.backgroundColor='#5fc864'"
+									onmouseout="this.style.backgroundColor='#8ace8d'" vAlign=top height=30
+									bgColor=#8ace8d
+									><A
+									href="<%=path%>/servlet/UserAction?action_flag=list&pageNum=1"
+									target="main" class=yd style=" color:#ffffff" >置业公司</A>
+								</TD>
+							</TR>
+							<TR>
+								<TD class=unnamed1-dh
+									onmouseover="this.style.backgroundColor='#5fc864'"
+									onmouseout="this.style.backgroundColor='#8ace8d'" vAlign=top height=30
+									bgColor=#8ace8d
+									><A
+									href="<%=path%>/servlet/UserAction?action_flag=list&pageNum=1"
+									target="main" class=yd style=" color:#ffffff" >典当公司</A>
+								</TD>
+							</TR>
+							<TR>
+								<TD class=unnamed1-dh
+									onmouseover="this.style.backgroundColor='#5fc864'"
+									onmouseout="this.style.backgroundColor='#8ace8d'" vAlign=top height=30
+									bgColor=#8ace8d
+									><A
+									href="<%=path%>/servlet/UserAction?action_flag=list&pageNum=1"
+									target="main" class=yd style=" color:#ffffff" >北京公司</A>
 								</TD>
 							</TR>
 						</TBODY>

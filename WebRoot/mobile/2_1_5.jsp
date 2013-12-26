@@ -186,7 +186,7 @@ BODY {
 										href="javascript:search();"> <img
 											src="<%=path%>/images/cx_1.jpg" name="Image4" width="60"
 											height="22" border="0"> </a>&nbsp; <a
-										href="<%=path%>/product/2_1_5tj.jsp"><img
+										href="<%=path%>/mobile/2_1_5tj.jsp"><img
 											src="<%=path%>/images/tj_1.jpg" name="Image3" width="60"
 											height="22" border="0"> </a></TD>
 								</TR>
